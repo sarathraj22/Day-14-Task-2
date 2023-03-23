@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Pagination</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Pagination section -->
+  <div class="pagination">
+    <ul>
+      <li class="first">First</li>
+      <li class="prev">Prev</li>
+      <li onclick="child(this)" class="pageNo" value="1" id="btn-1" for="1">1</li>
+      <li onclick="child(this)" class="pageNo" value="2" id="btn-2" for="2">2</li>
+      <li onclick="child(this)" class="pageNo" value="3" id="btn-3" for="3">3</li>
+      <li onclick="child(this)" class="pageNo" value="4" id="btn-4" for="4">4</li>
+      <li onclick="child(this)" class="pageNo" value="5" id="btn-5" for="5">5</li>
+      <li onclick="child(this)" class="pageNo" value="6" id="btn-6" for="6">6</li>
+      <li onclick="child(this)" class="pageNo" value="7" id="btn-7" for="7">7</li>
+      <li onclick="child(this)" class="pageNo" value="8" id="btn-8" for="8">8</li>
+      <li onclick="child(this)" class="pageNo" value="9" id="btn-9" for="9">9</li>
+      <li onclick="child(this)" class="pageNo" value="10" id="btn-10" for="10">10</li>
+      <li class="next">Next</li>
+    </ul>
+  </div>
+<!-- Result section -->
+  <div class="page-data results">
+
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+
+</body>
+
+</html>
